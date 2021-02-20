@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fragment } from 'react';
 
 class App extends React.Component 
 {
@@ -7,9 +8,21 @@ class App extends React.Component
 
   
   return (
+    <Fragment>
     <div>
-      Jithesh Nanat
+       Phone Directory
+       
     </div>
+    <br/>
+    <button>Add</button>
+    <br/>
+    <div>
+    <br/>
+       <span>Name</span><br/>
+       <br/>
+       <span>Phone</span>
+    </div>
+ </Fragment>
   );
   }
 
